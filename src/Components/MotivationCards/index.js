@@ -41,14 +41,8 @@ export default function MotivationCards(props) {
                 </Typography>
                 <Typography style={{
                     fontSize: '17px',
-                    fontWeight: '600',
                 }}>
-                    {subtitle}:<Typography style={{
-                        fontSize: '17px',
-                        fontWeight: '400',
-                    }}>
-                        {body}
-                    </Typography>
+                    <b>{subtitle}:</b> {body}
                 </Typography>
 
             </Box>
