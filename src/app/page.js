@@ -1,15 +1,26 @@
 
 import React from "react";
-import styles from "./page.module.css";
 import Header from "@/Components/Header";
 import { AppBar, Box, Button, Container, Toolbar } from "@mui/material";
 import Footer from "@/Components/Footer";
+import BannerDegrade from "@/Components/BannerDegrade";
 
 
 export default function Home(props) {
   return (
-    <main className={styles.main}>
+    <Box style={{
+      paddingTop: '75px',
+      display: 'flex',
+      flexDirection: 'column',
+      minHeight: '100vh',
+      backgroundColor: 'white'
+    }}>
       <Header />
+      <Container maxWidth='lg'>
+        <BannerDegrade title="Every day we work to redefine the mobility landscape to make it" subtitle="more simple, reliable, and sustainable." />
+
+      </Container>
+
       <Box style={{
         display: 'flex',
         justifyContent: 'center',
@@ -109,6 +120,6 @@ export default function Home(props) {
           </p>
         </a>
       </div> */}
-    </main>
+    </Box>
   );
 }

@@ -6,7 +6,8 @@ import Image from "next/image";
 export default function Header() {
     return (
         <AppBar style={{
-            position: 'fixed',
+            // position: 'fixed',
+            backgroundColor: '#fcfcfc',
             // zIndex: 1000,
         }}>
             <Toolbar>

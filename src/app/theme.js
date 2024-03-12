@@ -36,6 +36,11 @@ const theme = createTheme({
     },
     typography: {
         fontFamily: poppins.style.fontFamily,
+        h2: {
+            fontSize: '40px',
+            fontWeight: 700,
+            marginBottom: '10px',
+        },
         h3: {
             fontSize: '19px',
             fontWeight: 700,
@@ -43,6 +48,10 @@ const theme = createTheme({
         },
         body1: {
             fontSize: '15px',
+            fontWeight: 400,
+        },
+        body2: {
+            fontSize: '20px',
             fontWeight: 400,
         },
     },
