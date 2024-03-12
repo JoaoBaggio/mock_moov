@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function Footer() {
     return (
 
-        <Box style={{
-            position: 'fixed',
+        <footer style={{
+            position: '',
             bottom: 0,
             width: '100%',
             backgroundColor: '#eef4fd',
@@ -130,6 +130,6 @@ export default function Footer() {
 
                 </Box>
             </Container>
-        </Box>
+        </footer>
     );
 }
