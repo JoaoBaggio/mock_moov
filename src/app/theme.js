@@ -12,7 +12,7 @@ const roboto = Roboto({
 
 
 const poppins = Poppins({ 
-    weight: ['300', '400', '500', '700'],
+    weight: ['300', '400', '600', '700'],
     subsets: ['latin'],
     display: 'swap',
 });
@@ -36,6 +36,11 @@ const theme = createTheme({
     },
     typography: {
         fontFamily: poppins.style.fontFamily,
+        h1: {
+            fontSize: '35px',
+            fontWeight: 600,
+            
+        },
         h2: {
             fontSize: '40px',
             fontWeight: 700,

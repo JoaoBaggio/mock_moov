@@ -17,10 +17,11 @@ export default function BannerDegrade(props) {
 
         <Typography variant="body2" style={{
             marginBottom: '20px',
+            color: 'white',
         }}>
             {title}
         </Typography>
-        <Typography variant="h2">
+        <Typography variant="h2" color= 'white'>
             {subtitle}
         </Typography>
         </Box>
