@@ -6,6 +6,8 @@ import Footer from "@/Components/Footer";
 import BannerDegrade from "@/Components/BannerDegrade";
 import MotivationBanner from "@/Components/MotivationBanner";
 import HowBanner from "@/Components/HowBanner";
+import Commit from "@/Components/Commit";
+import CharityBanner from "@/Components/CharityBanner";
 
 
 export default function Home(props) {
@@ -24,6 +26,8 @@ export default function Home(props) {
         <BannerDegrade title="Every day we work to redefine the mobility landscape to make it" subtitle="more simple, reliable, and sustainable." />
 
         <HowBanner />
+        <Commit />
+        <CharityBanner />
       </Container>
 
       <Box style={{
