@@ -29,16 +29,6 @@ export default function Home(props) {
         <Commit />
         <CharityBanner />
       </Container>
-
-      <Box style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: '100vh',
-        backgroundColor: 'lightgray'
-      }}>
-        <h1>Welcome to Moov</h1>
-      </Box>
       <Footer />
 
     </Box>
