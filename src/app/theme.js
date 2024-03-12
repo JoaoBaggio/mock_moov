@@ -59,6 +59,12 @@ const theme = createTheme({
             fontSize: '20px',
             fontWeight: 400,
         },
+        body3: {
+            fontSize: '18px',
+            fontWeight: 400,
+            lineWeight: 1.6,
+            
+        },
     },
 });
 
