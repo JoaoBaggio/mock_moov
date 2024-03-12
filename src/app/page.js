@@ -1,10 +1,29 @@
-import Image from "next/image";
-import styles from "./page.module.css";
 
-export default function Home() {
+import React from "react";
+import styles from "./page.module.css";
+import Header from "@/Components/Header";
+import { AppBar, Box, Button, Container, Toolbar } from "@mui/material";
+import Footer from "@/Components/Footer";
+
+
+export default function Home(props) {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <Header />
+      <Box style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+        backgroundColor: 'lightgray'
+      }}>
+        <h1>Welcome to Moov</h1>
+      </Box>
+      <Footer />
+      {/* <div className={styles.description}>
+        <Button variant="contained" color="primary">
+          Hello World
+        </Button>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.js</code>
@@ -89,7 +108,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   );
 }
