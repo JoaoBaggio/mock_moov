@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && aws s3 cp dist s3://joaobaggio-moov-mock/ --recursive"
+    "deploy": "next build && aws s3 cp out s3://joaobaggio-moov-mock/ --recursive"
   },
   "dependencies": {
     "@emotion/cache": "^11.11.0",
