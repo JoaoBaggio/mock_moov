@@ -15,4 +15,4 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 ## Learn More
 
-Feel free to visit the [deployed website](https://moov-mock.joaobaggio.com/) to explore everything firsthand. This project is purely for learning purposes and does not have any commercial intent. Its primary goal was to gain practical experience with Next.js/React.
+Feel free to visit the [deployed website](https://moov-mock.joaobaggio.com/) to explore everything firsthand. This project is purely for learning purposes and does not have any commercial intent. Its primary goal was to practice a little bit of Next.js/React.
