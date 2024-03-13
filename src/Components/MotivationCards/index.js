@@ -8,7 +8,7 @@ export default function MotivationCards(props) {
             flexDirection: 'row',
             backgroundColor: 'white',
             // margin: '20px',
-            padding: '10px',
+            padding: '10px 0s',
             paddingBottom: '40px',
             width: '350px',
             // width: '33%',

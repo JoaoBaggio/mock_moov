@@ -91,7 +91,7 @@ export default function HowBanner() {
                     </Typography>
                 </Box>
             </Box>
-            <Image src="/img.png" alt="How it works image" width={500} height={500} style={{
+            <Image src="/img.png" alt="How it works image" width={400} height={400} style={{
                 alignSelf: 'center',
             }} />
         </Box>
