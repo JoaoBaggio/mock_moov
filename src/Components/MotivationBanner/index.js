@@ -5,6 +5,7 @@ export default function MotivationBanner() {
     return (
         <Box style={{
             paddingTop: '75px',
+            marginTop: '75px',
             paddingBottom: '75px',
             width: '100%',
             alignItems: 'center',
@@ -20,7 +21,7 @@ export default function MotivationBanner() {
             <Typography variant="h1" style={{
                 marginBottom: '20px',
             }}>
-                That&quot;s why we want to make mobility:
+                That&apos;s why we want to make mobility:
             </Typography>
 
             <Box style={{

@@ -52,7 +52,7 @@ export default function Home(props) {
               fontWeight: '600',
               lineHeight: '1.15',
             }} color='dark.main'>
-              Let&quot;s imagine a world where movement is freedom
+              Let&apos;s imagine a world where movement is freedom
             </Typography>
             <Typography style={{
               fontSize: '30px',
@@ -72,8 +72,9 @@ export default function Home(props) {
           </Box>
         </Box>
         <MotivationBanner />
-        <BannerDegrade title="Every day we work to redefine the mobility landscape to make it" subtitle="more simple, reliable, and sustainable." />
-
+        <Box style={{ margin: "40px 0" }}>
+          <BannerDegrade title="Every day we work to redefine the mobility landscape to make it" subtitle="more simple, reliable, and sustainable." />
+        </Box>
 
         <Box style={{
           position: 'relative',
@@ -99,7 +100,7 @@ export default function Home(props) {
             </Typography>
 
             <Typography variant="body3" style={{ marginBottom: '25px' }}>
-              The world is changing very quickly, just as behavioral models are. That's why <b>we want to create agile and easy to adapt solutions.</b>
+              The world is changing very quickly, just as behavioral models are. That&apos;s why <b>we want to create agile and easy to adapt solutions.</b>
             </Typography>
 
             <Typography variant="body3" style={{ marginBottom: '25px' }}>
@@ -107,17 +108,17 @@ export default function Home(props) {
             </Typography>
 
 
-            <Typography variant="body3" style={{ marginBottom: '15px', marginLeft:'15px' }}>
+            <Typography variant="body3" style={{ marginBottom: '15px', marginLeft: '15px' }}>
               • <b>platforms that orchestrate mobility</b> using top-tier technologies.<br />
             </Typography>
 
 
-            <Typography variant="body3"  style={{ marginBottom: '15px', marginLeft:'15px'  }}>
+            <Typography variant="body3" style={{ marginBottom: '15px', marginLeft: '15px' }}>
               • an outstanding <b>customer experience‍</b><br />
             </Typography>
 
 
-            <Typography variant="body3" style={{ marginBottom: '50px', marginLeft:'15px'  }}>
+            <Typography variant="body3" style={{ marginBottom: '50px', marginLeft: '15px' }}>
               • <b>insurance products</b> tailored to <b>mobility</b>, ensuring maximum protection, and <b>usage-based pricing</b> models that are grounded in consumption and behavior patterns.
             </Typography>
 
@@ -154,7 +155,7 @@ export default function Home(props) {
             </Card>
             <Card title="Insurance solutions" logo="/insurance1.svg">
               <Typography color='dark.light' variant="body1">
-                We work closely with the <b>insurance big players</b> and create <b>embedded "protection" systems</b> for our direct customers and partners.
+                We work closely with the <b>insurance big players</b> and create <b>embedded &quot;protection&quot; systems</b> for our direct customers and partners.
               </Typography>
               <Typography color='dark.light' variant="body1">
                 <b>Where do we make a difference?</b> <br />
@@ -187,11 +188,19 @@ export default function Home(props) {
             </Card>
           </Box>
         </Box>
+        <Box style={{ margin: '40px 0' }}>
+          <HowBanner />
 
-        <HowBanner />
+        </Box>
         <About />
-        <Commit />
-        <CharityBanner />
+        <Box style={{ margin: '60px 0' }}>
+          <Commit />
+
+        </Box>
+        <Box style={{ margin: '60px 0' }}>
+          <CharityBanner />
+
+        </Box>
       </Container>
       <Footer />
 
