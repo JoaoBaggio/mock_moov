@@ -23,20 +23,20 @@ export default function Commit() {
                     marginBottom: '20px',
 
                 }}>
-                    From the outset of our operations, we've been <b>passionate about promoting ESG (Environmental, Social, Governance) themes</b>, recognizing the importance of acting responsibly and sustainably.
+                    From the outset of our operations, we&quot;ve been <b>passionate about promoting ESG (Environmental, Social, Governance) themes</b>, recognizing the importance of acting responsibly and sustainably.
                 </Typography>
 
                 <Typography variant="body3" style={{
                     marginBottom: '20px',
 
                 }}>
-                    We're not mere observers; <b>we're actively engaged</b> in shaping a greener, fairer, and more accountable world.
+                    We&quot;re not mere observers; <b>we&quot;re actively engaged</b> in shaping a greener, fairer, and more accountable world.
                 </Typography>
                 <Typography variant="body3" style={{
                     marginBottom: '20px',
 
                 }}>
-                    Starting with the <b>environment</b>: our <b>pay-per-use model and promotion of 'green' vehicles</b> like electric and hybrids contribute to lowering CO2 emissions. Moreover, our Flee mobility platform further reduces emissions by facilitating diverse transportation combinations.
+                    Starting with the <b>environment</b>: our <b>pay-per-use model and promotion of &quot;green&quot; vehicles</b> like electric and hybrids contribute to lowering CO2 emissions. Moreover, our Flee mobility platform further reduces emissions by facilitating diverse transportation combinations.
                 </Typography>
                 <Typography variant="body3" style={{
                     marginBottom: '20px',
@@ -48,7 +48,7 @@ export default function Commit() {
                     marginBottom: '20px',
 
                 }}>
-                    And then there's <b>governance</b>. We're in the process of formulating an ethical code and training programs to prevent corruption. <b>We make collective decisions with a participative, merit-based approach</b>, steering clear of gender discrimination and wage disparities.
+                    And then there&quot;s <b>governance</b>. We&quot;re in the process of formulating an ethical code and training programs to prevent corruption. <b>We make collective decisions with a participative, merit-based approach</b>, steering clear of gender discrimination and wage disparities.
                 </Typography>
                 <Typography variant="body3" style={{
                     marginBottom: '20px',

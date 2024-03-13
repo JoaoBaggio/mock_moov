@@ -22,7 +22,7 @@ export default function CharityBanner() {
                     marginBottom: '20px',
                 }}>
                     <Typography variant="body3" >
-                        We support the <b>'Taxi Solidale' project by the Heal Foundation</b>, providing Flee rental cars for free use.
+                        We support the <b>&quot;Taxi Solidale&quot; project by the Heal Foundation</b>, providing Flee rental cars for free use.
                     </Typography>
                 </Box>
                 <Box style={{
@@ -31,7 +31,7 @@ export default function CharityBanner() {
                     marginBottom: '20px',
                 }}>
                     <Typography variant="body3" >
-                        Every day, the cars from <b>Heal's charitable taxi</b> service <b>help children</b> and their families <b>get to medical facilities for the essential cancer treatments</b> they need.
+                        Every day, the cars from <b>Heal&quot;s charitable taxi</b> service <b>help children</b> and their families <b>get to medical facilities for the essential cancer treatments</b> they need.
                     </Typography>
                 </Box>
 
@@ -43,7 +43,7 @@ export default function CharityBanner() {
 
 
                     <Typography variant="body3" >
-                        Furthermore, we'll offer our customers an opportunity to make their journeys more meaningful: by donating €0.01 to the Heal Foundation for every kilometer traveled.
+                        Furthermore, we&quot;ll offer our customers an opportunity to make their journeys more meaningful: by donating €0.01 to the Heal Foundation for every kilometer traveled.
                     </Typography>
 
 

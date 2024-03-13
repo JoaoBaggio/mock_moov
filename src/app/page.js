@@ -53,7 +53,7 @@ export default function Home(props) {
               fontWeight: '600',
               lineHeight: '1.15',
             }} color='dark.main'>
-              Let's imagine a world where movement is freedom
+              Let&quot;s imagine a world where movement is freedom
             </Typography>
             <Typography style={{
               fontSize:'30px',

@@ -20,7 +20,7 @@ export default function MotivationBanner() {
             <Typography variant="h1" style={{
                 marginBottom: '20px',
             }}>
-                That's why we want to make mobility:
+                That&quot;s why we want to make mobility:
             </Typography>
 
             <Box style={{

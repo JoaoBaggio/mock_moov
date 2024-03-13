@@ -37,10 +37,10 @@ export default function About() {
 
                 <AboutCards title='Moov-Drive'>
                     <Typography variant="body3">
-                        <b>Moov-Drive</b> is our group's operational company, the beating heart that <b>delivers mobility services.</b>
+                        <b>Moov-Drive</b> is our group&quot;s operational company, the beating heart that <b>delivers mobility services.</b>
                     </Typography>
                     <Typography variant="body3">
-                        We have a dedicated and skilled team working closely with Moov-Tech and Moov-Insurance to provide <b>innovative and reliable solutions, addressing people's mobility needs.</b> Every day, we strive to offer a premium service to our end customers
+                        We have a dedicated and skilled team working closely with Moov-Tech and Moov-Insurance to provide <b>innovative and reliable solutions, addressing people&quot;s mobility needs.</b> Every day, we strive to offer a premium service to our end customers
                     </Typography>
                 </AboutCards>
 
