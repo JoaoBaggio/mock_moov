@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Moov - Imagine a World where movement is freedom",
-  description: "",
+  description: "this is a copy of a website, made by Joao Baggio",
+  keywords: "joao, baggio, website, movement??"
 };
 
 export default function RootLayout({ children }) {
