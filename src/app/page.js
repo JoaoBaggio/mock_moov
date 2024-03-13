@@ -34,7 +34,7 @@ export default function Home(props) {
         boxSize: 'border-box',
         overflow: 'hidden',
       }}>
-        <Image src="/cover.png" alt="cover image of a lady" objectFit="cover" layout="fill" style={{}} />
+        <Image src="/cover.webp" alt="cover image of a lady" objectFit="cover" layout="fill" style={{}} />
       </Box>
       <Container maxWidth='lg'>
 
