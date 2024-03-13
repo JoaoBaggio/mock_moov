@@ -34,10 +34,7 @@ export default function Footer() {
                             }}
                         />
                         <Typography variant="body2" color="dark.main">
-                            Follow us on <a href="https://www.linkedin.com/company/group-moov/" target="_blank" style={{
-                                color: '#17afe7'
-                            
-                            }}>LinkedIn</a>
+                            Follow us on <a href="https://www.linkedin.com/company/group-moov/" target="_blank" >LinkedIn</a>
                         </Typography>
                     </Box>
                     <Box style={{
