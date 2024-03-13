@@ -11,8 +11,6 @@ export default function BannerDegrade(props) {
             alignItems: 'center',
             justifyContent: 'center',
             textAlign: 'center',
-            
-
         }}>
 
         <Typography variant="body2" style={{

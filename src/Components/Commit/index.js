@@ -6,7 +6,6 @@ export default function Commit() {
             display: 'flex',
             flexDirection: 'column',
         }}>
-
             <Typography variant="h2" style={{
                 marginBottom: '20px',
                 fontSize: '36px',
@@ -19,35 +18,19 @@ export default function Commit() {
                 display: 'flex',
                 flexDirection: 'column',
             }}>
-                <Typography variant="body3" style={{
-                    marginBottom: '20px',
-
-                }}>
+                <Typography variant="body3" style={{ marginBottom: '20px' }}>
                     From the outset of our operations, we&apos;ve been <b>passionate about promoting ESG (Environmental, Social, Governance) themes</b>, recognizing the importance of acting responsibly and sustainably.
                 </Typography>
-
-                <Typography variant="body3" style={{
-                    marginBottom: '20px',
-
-                }}>
+                <Typography variant="body3" style={{ marginBottom: '20px' }}>
                     We&apos;re not mere observers; <b>we&apos;re actively engaged</b> in shaping a greener, fairer, and more accountable world.
                 </Typography>
-                <Typography variant="body3" style={{
-                    marginBottom: '20px',
-
-                }}>
+                <Typography variant="body3" style={{ marginBottom: '20px' }}>
                     Starting with the <b>environment</b>: our <b>pay-per-use model and promotion of &apos;green&apos; vehicles</b> like electric and hybrids contribute to lowering CO2 emissions. Moreover, our Flee mobility platform further reduces emissions by facilitating diverse transportation combinations.
                 </Typography>
-                <Typography variant="body3" style={{
-                    marginBottom: '20px',
-
-                }}>
+                <Typography variant="body3" style={{ marginBottom: '20px' }}>
                     On the social front, we <b>enhance urban living through the Flee initiative</b>, aiming to provide more flexible and sustainable mobility. We offer our employees training and flexibility, including comprehensive insurance coverage. Additionally, we collaborate with and <b>support the Heal Foundation</b> through its social initiatives.
                 </Typography>
-                <Typography variant="body3" style={{
-                    marginBottom: '20px',
-
-                }}>
+                <Typography variant="body3" style={{ marginBottom: '20px' }}>
                     And then there&apos;s <b>governance</b>. We&apos;re in the process of formulating an ethical code and training programs to prevent corruption. <b>We make collective decisions with a participative, merit-based approach</b>, steering clear of gender discrimination and wage disparities.
                 </Typography>
                 <Typography variant="body3" style={{

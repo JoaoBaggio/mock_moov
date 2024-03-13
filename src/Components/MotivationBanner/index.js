@@ -12,7 +12,6 @@ export default function MotivationBanner() {
             justifyContent: 'center',
             textAlign: 'center',
         }}>
-
             <Typography variant="h1" style={{
                 marginBottom: '20px',
             }}>
@@ -31,7 +30,6 @@ export default function MotivationBanner() {
                 <MotivationCards number='01' title='Easy' subtitle='Moving is an easy thing' body='thanks to the use of innovative technologies, integrated digital platforms, and the creation of intuitive user experiences.' />
                 <MotivationCards number='02' title='Reliable' subtitle='Reliability goes hand in hand with solidity' body='our operational model and the technology we employ, based on agile methodologies and trial & error, are robust and of high quality.' />
                 <MotivationCards number='03' title='Sustainable' subtitle='Sustainability is our balance' body='we create a balance between environmental, social, and economic aspects.' />
-
             </Box>
         </Box>
     );

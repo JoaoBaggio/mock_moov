@@ -32,13 +32,10 @@ export default function Card(props) {
                     fontSize: '19px',
                     fontWeight: '600',
                     lineHeight: '1.7',
-
                 }}
-                    color='dark.main'
-                >
+                    color='dark.main'>
                     {title}
                 </Typography>
-
                 {
                     React.Children.map(children, child => {
                         return React.cloneElement(child, { style: { marginBottom: '30px' } });

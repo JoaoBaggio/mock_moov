@@ -15,7 +15,6 @@ export default function CharityBanner() {
                 }}>
                     Flee charity cars
                 </Typography>
-
                 <Box style={{
                     display: 'flex',
                     flexDirection: 'row',
@@ -34,35 +33,25 @@ export default function CharityBanner() {
                         Every day, the cars from <b>Heal&apos;s charitable taxi</b> service <b>help children</b> and their families <b>get to medical facilities for the essential cancer treatments</b> they need.
                     </Typography>
                 </Box>
-
                 <Box style={{
                     display: 'flex',
                     flexDirection: 'row',
                     marginBottom: '20px',
                 }}>
-
-
                     <Typography variant="body3" >
                         Furthermore, we&apos;ll offer our customers an opportunity to make their journeys more meaningful: by donating €0.01 to the Heal Foundation for every kilometer traveled.
                     </Typography>
-
-
                 </Box>
-
                 <Box style={{
                     display: 'flex',
                     flexDirection: 'row',
                     marginBottom: '20px',
                 }}>
-
                     <Typography variant="body3" >
                         <b>Interested in learning more about the Heal Foundation?</b> <br />
-                        <a href="https://www.progettoheal.com/" target="_blank">Visit their website</a> and the <a href="                https://shop.progettoheal.com/
-" target="_blank">charity shop.</a>
+                        <a href="https://www.progettoheal.com/" target="_blank">Visit their website</a> and the <a href="https://shop.progettoheal.com/" target="_blank">charity shop.</a>
                     </Typography>
                 </Box>
-
-
             </Box>
             <Image src="/img2.png" alt="How it works image" width={500} height={500} />
         </Box>

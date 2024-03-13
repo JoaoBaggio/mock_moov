@@ -20,27 +20,18 @@ export default function Footer() {
                     paddingTop: '45px',
                     paddingBottom: '45px',
                 }}>
-                    <Box  style={{
-                        textAlign: 'left',
-
-                    }}>
+                    <Box style={{ textAlign: 'left' }}>
                         <Image
                             src="/logo.svg"
                             alt="Moov Logo"
                             width={200}
                             height={100}
-                            style={{
-                                // backgroundColor: 'red'
-                            }}
                         />
                         <Typography variant="body2" color="dark.main">
                             Follow us on <a href="https://www.linkedin.com/company/group-moov/" target="_blank" >LinkedIn</a>
                         </Typography>
                     </Box>
-                    <Box style={{
-                        textAlign: 'left',
-
-                    }}>
+                    <Box style={{ textAlign: 'left' }}>
                         <Typography color="dark.main" variant="h3">
                             MOOV - Tech Srl
                         </Typography>
@@ -53,15 +44,12 @@ export default function Footer() {
                         <Typography color="dark.main">
                             00166 Roma (RM), Italia
                         </Typography>
-
                         <Typography color="dark.main" style={{
                             marginTop: '50px',
                             marginBottom: '50px'
                         }}>
-
                             VAT number: 17132741004
                         </Typography>
-
                         <Typography color="dark.main">
                             Email:
                         </Typography>
@@ -69,7 +57,6 @@ export default function Footer() {
                             <a href="mailto:contact@moov-group.com" >
                                 contact@moov-group.com</a>
                         </Typography>
-
                         <Typography color="dark.main">
                             Phone Number:
                         </Typography>
@@ -78,11 +65,7 @@ export default function Footer() {
                                 +39 06 9450 5873</a>
                         </Typography>
                     </Box>
-
-                    <Box style={{
-                        textAlign: 'left',
-
-                    }}>
+                    <Box style={{ textAlign: 'left' }}>
                         <Typography color="dark.main" variant="h3">
                             Flee                        </Typography>
                         <Typography color="dark.main" >
@@ -91,7 +74,6 @@ export default function Footer() {
                         <Typography color="link.main">
                             <a href="https://driveflee.com" target="_blank">
                                 driveflee.com</a>
-
                         </Typography>
                         <Typography color="dark.main">
                             Email:
@@ -101,11 +83,7 @@ export default function Footer() {
                                 info@driveflee.com</a>
                         </Typography>
                     </Box>
-
-                    <Box style={{
-                        textAlign: 'left',
-
-                    }}>
+                    <Box style={{ textAlign: 'left' }}>
                         <Typography color="dark.main" variant="h3">
                             We support Fondazione Heal
                         </Typography>

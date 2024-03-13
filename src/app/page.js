@@ -2,7 +2,7 @@
 import React from "react";
 import Image from 'next/image';
 import Header from "@/Components/Header";
-import { AppBar, Box, Button, Container, Toolbar, Typography } from "@mui/material";
+import { AppBar, Box, Button, Container, Typography } from "@mui/material";
 import Footer from "@/Components/Footer";
 import BannerDegrade from "@/Components/BannerDegrade";
 import MotivationBanner from "@/Components/MotivationBanner";
@@ -19,7 +19,6 @@ export default function Home(props) {
       paddingTop: '75px',
       display: 'flex',
       flexDirection: 'column',
-      minHeight: '100vh',
       backgroundColor: '#fcfcfc'
     }}>
       <Header />
@@ -94,40 +93,26 @@ export default function Home(props) {
               top: 140,
 
             }}>
-
             <Typography variant="h1" style={{ margin: '25px 0' }}>
               What we do
             </Typography>
-
             <Typography variant="body3" style={{ marginBottom: '25px' }}>
               The world is changing very quickly, just as behavioral models are. That&apos;s why <b>we want to create agile and easy to adapt solutions.</b>
             </Typography>
-
             <Typography variant="body3" style={{ marginBottom: '25px' }}>
               We directly engage with the market under the <b>Flee</b> brand and <b>empower partners and distribution networks</b> eager to pursue mobility initiatives <b>through</b>:<br />
             </Typography>
-
-
             <Typography variant="body3" style={{ marginBottom: '15px', marginLeft: '15px' }}>
               • <b>platforms that orchestrate mobility</b> using top-tier technologies.<br />
             </Typography>
-
-
             <Typography variant="body3" style={{ marginBottom: '15px', marginLeft: '15px' }}>
               • an outstanding <b>customer experience‍</b><br />
             </Typography>
-
-
             <Typography variant="body3" style={{ marginBottom: '50px', marginLeft: '15px' }}>
               • <b>insurance products</b> tailored to <b>mobility</b>, ensuring maximum protection, and <b>usage-based pricing</b> models that are grounded in consumption and behavior patterns.
             </Typography>
-
-
           </Box>
-          <Box style={{
-            width: '50%',
-            // backgroundColor: 'red',
-          }}>
+          <Box style={{ width: '50%' }}>
             <Card title="Flee" logo="/logo_green1.svg" >
               <Typography color='dark.light' variant="body1">
                 We directly engage with the market under our brand <b>Flee, owned by Moov-Tech.</b>
@@ -160,46 +145,29 @@ export default function Home(props) {
               <Typography color='dark.light' variant="body1">
                 <b>Where do we make a difference?</b> <br />
                 We always follow our mission and make every proposal: <br />
-
-
                 • simple and fast<br />
-
-
                 • sustainable and flexible<br />
-
-
                 • safe and transparent.
-
               </Typography>
               <Typography color='dark.light' variant="body1">
                 <b>Where do we stand out?</b>  <br />
                 ‍We consistently adhere to our mission, ensuring every offering is: <br />
-
-
                 • quick and straightforward<br />
-
-
                 • sustainable and adaptable<br />
-
-
                 • transparent and secure.
-
               </Typography>
             </Card>
           </Box>
         </Box>
         <Box style={{ margin: '40px 0' }}>
           <HowBanner />
-
         </Box>
         <About />
         <Box style={{ margin: '60px 0' }}>
           <Commit />
-
         </Box>
         <Box style={{ margin: '60px 0' }}>
           <CharityBanner />
-
         </Box>
       </Container>
       <Footer />

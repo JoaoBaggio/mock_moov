@@ -13,11 +13,8 @@ export default function MotivationCards(props) {
             width: '33%',
             /** shadow around */
             boxShadow: '0 0 10px 0 rgba(0,0,0,0.1)',
-        }}
-
-        >
+        }}>
             <Box style={{
-
                 fontSize: '50px',
                 fontWeight: '600',
                 color: 'royalblue',
@@ -25,11 +22,7 @@ export default function MotivationCards(props) {
             }}>
                 {number}
             </Box>
-            <Box style={{
-                // padding: '20px',
-                textAlign: 'left',
-
-            }}>
+            <Box style={{ textAlign: 'left' }}>
                 <Typography variant="body2" style={{
                     marginTop: '10px',
                     marginBottom: '20px',
@@ -44,7 +37,6 @@ export default function MotivationCards(props) {
                 }}>
                     <b>{subtitle}:</b> {body}
                 </Typography>
-
             </Box>
         </Box>
     );

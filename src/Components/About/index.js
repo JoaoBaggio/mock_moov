@@ -11,14 +11,9 @@ export default function About() {
             justifyContent: 'center',
             textAlign: 'center',
         }}>
-
-            <Typography variant="h1" style={{
-                marginBottom: '20px',
-            }}>
+            <Typography variant="h1" style={{ marginBottom: '20px' }}>
                 MOOV Group
             </Typography>
-
-
             <Box style={{
                 display: 'flex',
                 flexDirection: 'row',
@@ -49,8 +44,8 @@ export default function About() {
                         <b>Moov-Insurance</b> is our company specialized in <b>insurance solutions for mobility.</b>
                     </Typography>
                     <Typography variant="body3">
-                        Through our partners, the Moov-Insurance team collaborates closely with Moov-Tech and Moov-Drive to craft <b>insurance products tailored for mobility</b>, ensuring our clients are always protected with utmost flexibility.                          </Typography>
-
+                        Through our partners, the Moov-Insurance team collaborates closely with Moov-Tech and Moov-Drive to craft <b>insurance products tailored for mobility</b>, ensuring our clients are always protected with utmost flexibility.
+                    </Typography>
                 </AboutCards>
 
             </Box>
