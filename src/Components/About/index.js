@@ -3,7 +3,7 @@ import AboutCards from "../AboutCards";
 
 export default function About() {
     return (
-        <Box style={{
+        <Box sx={{
             paddingTop: '75px',
             paddingBottom: '75px',
             width: '100%',
@@ -11,12 +11,21 @@ export default function About() {
             justifyContent: 'center',
             textAlign: 'center',
         }}>
-            <Typography variant="h1" style={{ marginBottom: '20px' }}>
+            <Typography variant="h1" sx={{ marginBottom: '20px' }}>
                 MOOV Group
             </Typography>
-            <Box style={{
+            <Box sx={{
                 display: 'flex',
-                flexDirection: 'row',
+                flexDirection: {
+                    xs: 'column',
+                    md: 'row',
+                },
+                alignItems: {
+                    xs: 'center',
+                    md: 'stretch',
+                },
+                justifyContent: 'space-between',
+                
             }}>
                 <AboutCards title='Moov-Tech'>
                     <Typography variant="body3">

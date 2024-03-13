@@ -23,9 +23,26 @@ export default function MotivationBanner() {
                 That&apos;s why we want to make mobility:
             </Typography>
 
-            <Box style={{
+            <Box sx={{
                 display: 'flex',
-                flexDirection: 'row',
+                flexDirection: {
+                    xs: 'column',
+                    md: 'row',
+                    lg: 'row',
+                },
+                alignItems: {
+                    xs: 'center',
+                    md: 'stretch',
+                    lg: 'stretch',
+                },
+                justifyContent: 'space-between',
+                minHeight: {
+                    xs: '800px',
+                    sm: '800px',
+                    md: 'auto',
+                    lg: 'auto',
+                    xl: 'auto',
+                },
             }}>
                 <MotivationCards number='01' title='Easy' subtitle='Moving is an easy thing' body='thanks to the use of innovative technologies, integrated digital platforms, and the creation of intuitive user experiences.' />
                 <MotivationCards number='02' title='Reliable' subtitle='Reliability goes hand in hand with solidity' body='our operational model and the technology we employ, based on agile methodologies and trial & error, are robust and of high quality.' />

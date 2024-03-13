@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Footer() {
     return (
 
-        <footer style={{
+        <footer sx={{
             position: '',
             bottom: 0,
             width: '100%',
@@ -13,14 +13,17 @@ export default function Footer() {
             textAlign: 'center'
         }}>
             <Container maxWidth='lg'>
-                <Box style={{
+                <Box sx={{
                     display: 'flex',
-                    flexDirection: 'row',
+                    flexDirection: {
+                        xs: 'column',
+                        md: 'row',
+                    },
                     justifyContent: 'space-between',
                     paddingTop: '45px',
                     paddingBottom: '45px',
                 }}>
-                    <Box style={{ textAlign: 'left' }}>
+                    <Box sx={{ textAlign: 'left' }}>
                         <Image
                             src="/logo.svg"
                             alt="Moov Logo"
@@ -31,7 +34,7 @@ export default function Footer() {
                             Follow us on <a href="https://www.linkedin.com/company/group-moov/" target="_blank" >LinkedIn</a>
                         </Typography>
                     </Box>
-                    <Box style={{ textAlign: 'left' }}>
+                    <Box sx={{ textAlign: 'left' }}>
                         <Typography color="dark.main" variant="h3">
                             MOOV - Tech Srl
                         </Typography>
@@ -44,7 +47,7 @@ export default function Footer() {
                         <Typography color="dark.main">
                             00166 Roma (RM), Italia
                         </Typography>
-                        <Typography color="dark.main" style={{
+                        <Typography color="dark.main" sx={{
                             marginTop: '50px',
                             marginBottom: '50px'
                         }}>
@@ -65,7 +68,7 @@ export default function Footer() {
                                 +39 06 9450 5873</a>
                         </Typography>
                     </Box>
-                    <Box style={{ textAlign: 'left' }}>
+                    <Box sx={{ textAlign: 'left' }}>
                         <Typography color="dark.main" variant="h3">
                             Flee                        </Typography>
                         <Typography color="dark.main" >
@@ -83,7 +86,7 @@ export default function Footer() {
                                 info@driveflee.com</a>
                         </Typography>
                     </Box>
-                    <Box style={{ textAlign: 'left' }}>
+                    <Box sx={{ textAlign: 'left' }}>
                         <Typography color="dark.main" variant="h3">
                             We support Fondazione Heal
                         </Typography>

@@ -2,7 +2,7 @@
 import React from "react";
 import Image from 'next/image';
 import Header from "@/Components/Header";
-import { AppBar, Box, Button, Container, Typography } from "@mui/material";
+import { Box, Button, Container, Typography } from "@mui/material";
 import Footer from "@/Components/Footer";
 import BannerDegrade from "@/Components/BannerDegrade";
 import MotivationBanner from "@/Components/MotivationBanner";
@@ -15,45 +15,36 @@ import Card from "@/Components/Card";
 
 export default function Home(props) {
   return (
-    <Box style={{
+    <Box sx={{
       paddingTop: '75px',
       display: 'flex',
       flexDirection: 'column',
       backgroundColor: '#fcfcfc'
     }}>
       <Header />
-      <Box style={{
-        position: 'absolute',
-        width: '50%',
-        height: '60vh',
-        right: 0,
-        top: 0,
-        maxHeight: '100vh',
-        objectFit: 'cover',
-        boxSize: 'border-box',
-        overflow: 'hidden',
-      }}>
-        <Image src="/cover.webp" alt="cover image of a lady" objectFit="cover" layout="fill" style={{}} />
-      </Box>
+
       <Container maxWidth='lg'>
 
-        <Box style={{
+        <Box sx={{
           display: 'flex',
           flexDirection: 'row',
         }}>
-          <Box style={{
+          <Box sx={{
             display: 'flex',
             flexDirection: 'column',
-            maxWidth: '50%',
+            maxWidth: {
+              sx: '100%',
+              md: '50%',
+            }
           }}>
-            <Typography style={{
+            <Typography sx={{
               fontSize: '60px',
               fontWeight: '600',
               lineHeight: '1.15',
             }} color='dark.main'>
               Let&apos;s imagine a world where movement is freedom
             </Typography>
-            <Typography style={{
+            <Typography sx={{
               fontSize: '30px',
               fontWeight: '400',
               lineHeight: '1.4',
@@ -62,7 +53,7 @@ export default function Home(props) {
             }} color='dark.main'>
               We innovate mobility in every aspect!
             </Typography>
-            <Button variant="contained" color="secondary" style={{
+            <Button variant="contained" color="secondary" sx={{
               marginTop: '20px',
               width: '150px',
             }}>
@@ -70,49 +61,91 @@ export default function Home(props) {
             </Button>
           </Box>
         </Box>
+      </Container>
+      <Box sx={{
+        position: {
+          xs: 'relative',
+          md: 'absolute',
+        },
+        width: {
+          xs: '100%',
+          md: '50%',
+        },
+        height: '60vh',
+        right: 0,
+        top: 0,
+        maxHeight: '100vh',
+        objectFit: 'cover',
+        boxSize: 'border-box',
+        overflow: 'hidden',
+      }}>
+        <Image src="/cover.webp" alt="cover image of a lady" objectFit="cover" layout="fill"  />
+      </Box>
+      <Container maxWidth='lg'>
         <MotivationBanner />
-        <Box style={{ margin: "40px 0" }}>
+        <Box sx={{ margin: "40px 0" }}>
           <BannerDegrade title="Every day we work to redefine the mobility landscape to make it" subtitle="more simple, reliable, and sustainable." />
         </Box>
 
-        <Box style={{
+        <Box sx={{
           position: 'relative',
           display: 'flex',
-          flexDirection: 'row',
+          flexDirection: {
+            xs: 'column',
+            md: 'row',
+          },
+
+
         }}>
           <Box
-            style={{
+            sx={{
               display: 'flex',
               flexDirection: 'column',
-              width: '50%',
+              width: {
+                xs: '100%',
+                md: '50%',
+              },
               paddingRight: '50px',
               position: '-webkit-sticky', /* Safari */
-              position: 'sticky',
+              position: {
+                xs: 'static',
+                md: '-webkit-sticky',
+              },
+              position: {
+                xs: 'static',
+                md: 'sticky',
+              },
+
               alignSelf: 'flex-start',
               left: 0,
               top: 140,
 
             }}>
-            <Typography variant="h1" style={{ margin: '25px 0' }}>
+            <Typography variant="h1" sx={{ margin: '25px 0' }}>
               What we do
             </Typography>
-            <Typography variant="body3" style={{ marginBottom: '25px' }}>
+            <Typography variant="body3" sx={{ marginBottom: '25px' }}>
               The world is changing very quickly, just as behavioral models are. That&apos;s why <b>we want to create agile and easy to adapt solutions.</b>
             </Typography>
-            <Typography variant="body3" style={{ marginBottom: '25px' }}>
+            <Typography variant="body3" sx={{ marginBottom: '25px' }}>
               We directly engage with the market under the <b>Flee</b> brand and <b>empower partners and distribution networks</b> eager to pursue mobility initiatives <b>through</b>:<br />
             </Typography>
-            <Typography variant="body3" style={{ marginBottom: '15px', marginLeft: '15px' }}>
+            <Typography variant="body3" sx={{ marginBottom: '15px', marginLeft: '15px' }}>
               • <b>platforms that orchestrate mobility</b> using top-tier technologies.<br />
             </Typography>
-            <Typography variant="body3" style={{ marginBottom: '15px', marginLeft: '15px' }}>
+            <Typography variant="body3" sx={{ marginBottom: '15px', marginLeft: '15px' }}>
               • an outstanding <b>customer experience‍</b><br />
             </Typography>
-            <Typography variant="body3" style={{ marginBottom: '50px', marginLeft: '15px' }}>
+            <Typography variant="body3" sx={{ marginBottom: '50px', marginLeft: '15px' }}>
               • <b>insurance products</b> tailored to <b>mobility</b>, ensuring maximum protection, and <b>usage-based pricing</b> models that are grounded in consumption and behavior patterns.
             </Typography>
           </Box>
-          <Box style={{ width: '50%' }}>
+          <Box sx={{
+            width: {
+              xs: '100%',
+              md: '50%',
+            }
+          }}>
             <Card title="Flee" logo="/logo_green1.svg" >
               <Typography color='dark.light' variant="body1">
                 We directly engage with the market under our brand <b>Flee, owned by Moov-Tech.</b>
@@ -159,14 +192,14 @@ export default function Home(props) {
             </Card>
           </Box>
         </Box>
-        <Box style={{ margin: '40px 0' }}>
+        <Box sx={{ margin: '40px 0' }}>
           <HowBanner />
         </Box>
         <About />
-        <Box style={{ margin: '60px 0' }}>
+        <Box sx={{ margin: '60px 0' }}>
           <Commit />
         </Box>
-        <Box style={{ margin: '60px 0' }}>
+        <Box sx={{ margin: '60px 0' }}>
           <CharityBanner />
         </Box>
       </Container>

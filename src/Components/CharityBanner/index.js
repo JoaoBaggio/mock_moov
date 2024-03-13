@@ -3,19 +3,22 @@ import Image from "next/image";
 
 export default function CharityBanner() {
     return (
-        <Box style={{
+        <Box sx={{
             display: 'flex',
-            flexDirection: 'row',
+            flexDirection: {
+                xs: 'column',
+                md: 'row',
+            }
         }}>
             <Box>
-                <Typography variant="h2" style={{
+                <Typography variant="h2" sx={{
                     marginBottom: '20px',
                     fontSize: '36px',
                     fontWeight: '600',
                 }}>
                     Flee charity cars
                 </Typography>
-                <Box style={{
+                <Box sx={{
                     display: 'flex',
                     flexDirection: 'row',
                     marginBottom: '20px',
@@ -24,7 +27,7 @@ export default function CharityBanner() {
                         We support the <b>&apos;Taxi Solidale&apos; project by the Heal Foundation</b>, providing Flee rental cars for free use.
                     </Typography>
                 </Box>
-                <Box style={{
+                <Box sx={{
                     display: 'flex',
                     flexDirection: 'row',
                     marginBottom: '20px',
@@ -33,7 +36,7 @@ export default function CharityBanner() {
                         Every day, the cars from <b>Heal&apos;s charitable taxi</b> service <b>help children</b> and their families <b>get to medical facilities for the essential cancer treatments</b> they need.
                     </Typography>
                 </Box>
-                <Box style={{
+                <Box sx={{
                     display: 'flex',
                     flexDirection: 'row',
                     marginBottom: '20px',
@@ -42,7 +45,7 @@ export default function CharityBanner() {
                         Furthermore, we&apos;ll offer our customers an opportunity to make their journeys more meaningful: by donating €0.01 to the Heal Foundation for every kilometer traveled.
                     </Typography>
                 </Box>
-                <Box style={{
+                <Box sx={{
                     display: 'flex',
                     flexDirection: 'row',
                     marginBottom: '20px',
@@ -53,7 +56,9 @@ export default function CharityBanner() {
                     </Typography>
                 </Box>
             </Box>
-            <Image src="/img2.png" alt="How it works image" width={500} height={500} />
+            <Image src="/img2.png" alt="How it works image" width={500} height={500} style={{
+                alignSelf: 'center',
+            }}/>
         </Box>
     );
 }

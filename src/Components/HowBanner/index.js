@@ -4,12 +4,16 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 export default function HowBanner() {
     return (
-        <Box style={{
+        <Box sx={{
             display: 'flex',
-            flexDirection: 'row',
+            flexDirection: {
+                xs: 'column',
+                md: 'row',
+            
+            }
         }}>
             <Box>
-                <Typography variant="h2" style={{
+                <Typography variant="h2" sx={{
                     marginBottom: '20px',
                     fontSize: '36px',
                     fontWeight: '600',
@@ -17,13 +21,13 @@ export default function HowBanner() {
                     How we do it
                 </Typography>
 
-                <Box style={{
+                <Box sx={{
                     display: 'flex',
                     flexDirection: 'row',
                     marginBottom: '20px',
                 }}>
 
-                    <CheckCircleIcon style={{
+                    <CheckCircleIcon sx={{
                         color: '#0054ff',
                         marginRight: '10px',
                     }} />
@@ -31,11 +35,11 @@ export default function HowBanner() {
                         we <b>use technology</b>     to enable and enhance all phases of the  <b>mobility services process (E2E)</b>, including the insurance aspect;
                     </Typography>
                 </Box>
-                <Box style={{
+                <Box sx={{
                     display: 'flex',
                     flexDirection: 'row',
                     marginBottom: '20px',
-                }}>                <CheckCircleIcon style={{
+                }}>                <CheckCircleIcon sx={{
                     color: '#0054ff',
                     marginRight: '10px',
                 }} />
@@ -43,13 +47,13 @@ export default function HowBanner() {
                         we create pricing models to incentivize virtuous behaviors, such as optimizing consumption, sustainable and safe driving;
                     </Typography></Box>
 
-                <Box style={{
+                <Box sx={{
                     display: 'flex',
                     flexDirection: 'row',
                     marginBottom: '20px',
                 }}>
 
-                    <CheckCircleIcon style={{
+                    <CheckCircleIcon sx={{
                         color: '#0054ff',
                         marginRight: '10px',
                     }} />
@@ -60,12 +64,12 @@ export default function HowBanner() {
 
                 </Box>
 
-                <Box style={{
+                <Box sx={{
                     display: 'flex',
                     flexDirection: 'row',
                     marginBottom: '20px',
                 }}>
-                    <CheckCircleIcon style={{
+                    <CheckCircleIcon sx={{
                         color: '#0054ff',
                         marginRight: '10px',
                     }} />
@@ -73,12 +77,12 @@ export default function HowBanner() {
                         we create an easy and transparent user experience;
                     </Typography>
                 </Box>
-                <Box style={{
+                <Box sx={{
                     display: 'flex',
                     flexDirection: 'row',
                     marginBottom: '20px',
                 }}>
-                    <CheckCircleIcon style={{
+                    <CheckCircleIcon sx={{
                         color: '#0054ff',
                         marginRight: '10px',
                     }} />
@@ -87,7 +91,9 @@ export default function HowBanner() {
                     </Typography>
                 </Box>
             </Box>
-            <Image src="/img.png" alt="How it works image" width={500} height={500} />
+            <Image src="/img.png" alt="How it works image" width={500} height={500} style={{
+                alignSelf: 'center',
+            }} />
         </Box>
     );
 }

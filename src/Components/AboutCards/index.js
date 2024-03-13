@@ -8,11 +8,10 @@ export default function AboutCards(props) {
             display: 'flex',
             flexDirection: 'column',
             backgroundColor: 'white',
-            margin: '20px',
-            padding: '10px 30px',
-            paddingBottom: '40px',
+            margin: '20px 0',
+            padding: '20px',
             textAlign: 'left',
-            width: '33%',
+            width: '320px',
             /** shadow around */
             boxShadow: '0 0 10px 0 rgba(0,0,0,0.1)',
         }}        >
