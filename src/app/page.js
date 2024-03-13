@@ -105,7 +105,7 @@ export default function Home(props) {
                 xs: '100%',
                 md: '50%',
               },
-              paddingRight: '50px',
+              marginRight: '50px',
               position: '-webkit-sticky', /* Safari */
               position: {
                 xs: 'static',
