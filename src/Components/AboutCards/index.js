@@ -9,7 +9,7 @@ export default function AboutCards(props) {
             flexDirection: 'column',
             backgroundColor: 'white',
             margin: '20px',
-            padding: '10px',
+            padding: '10px 30px',
             paddingBottom: '40px',
             textAlign: 'left',
             width: '33%',
